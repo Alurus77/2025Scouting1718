@@ -54,7 +54,7 @@ var config_data = `
       "type": "team",
       "min": 1,
       "max": 99999
-    },
+    }
   ],
   "auton": [
     { "name": "Leave Starting Line",
@@ -97,6 +97,7 @@ var config_data = `
         "x": "Not Attempted"
     },
       "defaultValue": "x"
+    },
     { "name": "Coral L1",
       "code": "tc1",
       "type": "counter"
@@ -124,7 +125,7 @@ var config_data = `
     { "name": "Attained Coopertition Pt",
       "code": "cop",
       "type": "bool"
-    },
+    }
   ],
   "endgame": [
     { "name": "Barge Timer",
